@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Observatório auditável do futebol brasileiro desde 1971.">
+<title>Observatório do Futebol Brasileiro</title>
+<style>
+:root{font-family:Inter,Arial,sans-serif;color:#192b3c;background:#f2f4f7}*{box-sizing:border-box}body{margin:0}header{background:#13283b;color:white;padding:35px max(22px,calc((100vw - 1150px)/2))}h1{margin:0;font-size:clamp(24px,4vw,40px)}header p{color:#b9c7d5}.wrap{max-width:1150px;margin:auto;padding:22px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card,.panel{background:white;border:1px solid #dce3e9;border-radius:10px;padding:19px}.card strong{display:block;font-size:29px}.muted,small{color:#667686}.panel{margin-top:16px}.panel h2{margin:0 0 15px;font-size:20px}.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}select,input{padding:11px;border-radius:7px;border:1px solid #cbd5df;background:white;font:inherit;min-width:150px}.table{overflow:auto}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;border-bottom:1px solid #e5e9ee}th{font-size:13px;color:#58697b}.notice{color:#775113;background:#fff7e8;border-radius:6px;padding:10px}#chart{min-height:280px;display:flex;align-items:center;justify-content:center;color:#7b8794}footer{text-align:center;padding:28px;color:#637487}@media(max-width:600px){.cards{grid-template-columns:1fr 1fr}.card:last-child{grid-column:span 2}.wrap{padding:12px}select,input{width:100%}}
+</style></head><body>
+<header><h1>Observatório do Futebol Brasileiro</h1><p>1971–2026 · Séries A, B e C · Comparação histórica e financeira</p></header>
+<main class="wrap"><section class="cards">
+<div class="card"><strong id="clubCount">—</strong><small>Clubes cadastrados</small></div>
+<div class="card"><strong>56</strong><small>Temporadas em análise</small></div>
+<div class="card"><strong id="factCount">—</strong><small>Dados homologados</small></div></section>
+<section class="panel"><h2>Universo de clubes</h2><div class="filters">
+<select id="division"><option value="">Todas as divisões</option><option>A</option><option>B</option><option>C</option></select>
+<select id="state"><option value="">Todos os estados</option></select><input id="search" placeholder="Pesquisar clube" aria-label="Pesquisar clube"></div>
+<div class="table"><table><thead><tr><th>Clube</th><th>UF</th><th>Série 2026</th><th>Homologação</th></tr></thead><tbody id="clubs"><tr><td colspan="4">Carregando catálogo…</td></tr></tbody></table></div></section>
+<section class="panel"><h2>Comparação por indicador</h2><div class="filters">
+<select id="metric"><option value="fan_pct">Torcida</option><option value="revenue">Faturamento</option><option value="state_titles">Títulos estaduais</option><option value="regional_titles">Títulos regionais</option><option value="national_titles">Títulos nacionais</option><option value="placement">Classificação</option><option value="net_assets">Patrimônio líquido</option><option value="gross_debt">Dívida bruta</option><option value="net_debt">Dívida líquida</option></select>
+<select id="clubA"></select><select id="clubB"></select></div><div id="chart">Dados históricos aguardando homologação.</div><p class="muted" id="coverage"></p></section>
+<section class="panel"><h2>Critério de publicação</h2><p>Valores disponíveis apenas após validação da fonte, metodologia e revisão independente. O sistema não converte ausência de dados em zero.</p><p class="notice" id="connection">Catálogo preliminar. Nenhum dado histórico será inventado.</p></section></main>
+<footer>Observatório do Futebol Brasileiro · Governança documental</footer><script src="config.js"></script><script src="app.js"></script></body></html>
