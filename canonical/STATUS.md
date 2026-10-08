@@ -18,3 +18,10 @@
 
 ## Próximo marco
 Homologar G0; pesquisar e validar lotes; gerar web/facts.json apenas de registros verificados. Ativar hospedagem GitHub Pages se elegível, ou alternativa gratuita compatível com repositório privado. Supabase permanece previsto, não ativo.
+
+## M1 / 2026-10-08
+- Agente 01: pesquisa primária CBF registrada em data/research/2026-10-08-g0-cbf-primary.md.
+- Conferência preliminar das Séries A e B: 20/20 nominalmente, ainda sem revisão independente.
+- Série C: relação nominal integral ainda não confrontada com a tabela básica.
+- Agente 06: checklist de revisão criado em data/review/2026-10-08-g0-checklist.md; pendente.
+- Gate G0: PENDING; nenhuma informação histórica homologada ou publicada por este marco.
