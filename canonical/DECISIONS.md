@@ -8,3 +8,5 @@ D005: dados contábeis preservam associação e SAF separadas até haver períme
 D006: valores corrigidos derivados de séries identificadas, nunca substituindo o nominal.
 D007: painéis comparativos não fundem classificação de A, B e C em posição única.
 D008: desenvolvimento em fases: governança → homologação → importação → gráficos → publicação.
+
+D009 (2026-10-08): operação inicial sem Supabase; GitHub guarda dados versionados e web/facts.json publica apenas registros homologados. Migração SQL preservada para uso futuro. Não reutilizar bancos de outros projetos.
