@@ -1,0 +1,362 @@
+[
+  {
+    "club_id": "club_001",
+    "name": "Athletico-PR",
+    "state": "PR",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_002",
+    "name": "Atlético-MG",
+    "state": "MG",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_003",
+    "name": "Bahia",
+    "state": "BA",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_004",
+    "name": "Botafogo",
+    "state": "RJ",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_005",
+    "name": "Chapecoense",
+    "state": "SC",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_006",
+    "name": "Corinthians",
+    "state": "SP",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_007",
+    "name": "Coritiba",
+    "state": "PR",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_008",
+    "name": "Cruzeiro",
+    "state": "MG",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_009",
+    "name": "Flamengo",
+    "state": "RJ",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_010",
+    "name": "Fluminense",
+    "state": "RJ",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_011",
+    "name": "Grêmio",
+    "state": "RS",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_012",
+    "name": "Internacional",
+    "state": "RS",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_013",
+    "name": "Mirassol",
+    "state": "SP",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_014",
+    "name": "Palmeiras",
+    "state": "SP",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_015",
+    "name": "Red Bull Bragantino",
+    "state": "SP",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_016",
+    "name": "Remo",
+    "state": "PA",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_017",
+    "name": "Santos",
+    "state": "SP",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_018",
+    "name": "São Paulo",
+    "state": "SP",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_019",
+    "name": "Vasco da Gama",
+    "state": "RJ",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_020",
+    "name": "Vitória",
+    "state": "BA",
+    "reference_division": "A"
+  },
+  {
+    "club_id": "club_021",
+    "name": "América-MG",
+    "state": "MG",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_022",
+    "name": "Athletic Club",
+    "state": "MG",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_023",
+    "name": "Atlético-GO",
+    "state": "GO",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_024",
+    "name": "Avaí",
+    "state": "SC",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_025",
+    "name": "Botafogo-SP",
+    "state": "SP",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_026",
+    "name": "Ceará",
+    "state": "CE",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_027",
+    "name": "CRB",
+    "state": "AL",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_028",
+    "name": "Criciúma",
+    "state": "SC",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_029",
+    "name": "Cuiabá",
+    "state": "MT",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_030",
+    "name": "Fortaleza",
+    "state": "CE",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_031",
+    "name": "Goiás",
+    "state": "GO",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_032",
+    "name": "Juventude",
+    "state": "RS",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_033",
+    "name": "Londrina",
+    "state": "PR",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_034",
+    "name": "Náutico",
+    "state": "PE",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_035",
+    "name": "Novorizontino",
+    "state": "SP",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_036",
+    "name": "Operário-PR",
+    "state": "PR",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_037",
+    "name": "Ponte Preta",
+    "state": "SP",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_038",
+    "name": "São Bernardo",
+    "state": "SP",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_039",
+    "name": "Sport",
+    "state": "PE",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_040",
+    "name": "Vila Nova",
+    "state": "GO",
+    "reference_division": "B"
+  },
+  {
+    "club_id": "club_041",
+    "name": "Amazonas",
+    "state": "AM",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_042",
+    "name": "Anápolis",
+    "state": "GO",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_043",
+    "name": "Barra-SC",
+    "state": "SC",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_044",
+    "name": "Botafogo-PB",
+    "state": "PB",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_045",
+    "name": "Brusque",
+    "state": "SC",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_046",
+    "name": "Caxias",
+    "state": "RS",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_047",
+    "name": "Confiança",
+    "state": "SE",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_048",
+    "name": "Ferroviária",
+    "state": "SP",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_049",
+    "name": "Figueirense",
+    "state": "SC",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_050",
+    "name": "Floresta",
+    "state": "CE",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_051",
+    "name": "Guarani",
+    "state": "SP",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_052",
+    "name": "Inter de Limeira",
+    "state": "SP",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_053",
+    "name": "Itabaiana",
+    "state": "SE",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_054",
+    "name": "Ituano",
+    "state": "SP",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_055",
+    "name": "Maranhão",
+    "state": "MA",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_056",
+    "name": "Maringá",
+    "state": "PR",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_057",
+    "name": "Paysandu",
+    "state": "PA",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_058",
+    "name": "Santa Cruz",
+    "state": "PE",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_059",
+    "name": "Volta Redonda",
+    "state": "RJ",
+    "reference_division": "C"
+  },
+  {
+    "club_id": "club_060",
+    "name": "Ypiranga-RS",
+    "state": "RS",
+    "reference_division": "C"
+  }
+]
