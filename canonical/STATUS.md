@@ -25,3 +25,8 @@ Homologar G0; pesquisar e validar lotes; gerar web/facts.json apenas de registro
 - Série C: relação nominal integral ainda não confrontada com a tabela básica.
 - Agente 06: checklist de revisão criado em data/review/2026-10-08-g0-checklist.md; pendente.
 - Gate G0: PENDING; nenhuma informação histórica homologada ou publicada por este marco.
+
+## M1 — atualização documental 2026-10-08
+- Série C: 20 nomes cotejados com os dez confrontos da rodada 10 divulgados pela CBF em 13/06/2026.
+- Registro: data/research/2026-10-08-g0-serie-c-crosscheck.md.
+- Gate G0 segue pendente de revisão independente e checagem de identidade jurídica.
