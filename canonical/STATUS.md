@@ -30,3 +30,8 @@ Homologar G0; pesquisar e validar lotes; gerar web/facts.json apenas de registro
 - Série C: 20 nomes cotejados com os dez confrontos da rodada 10 divulgados pela CBF em 13/06/2026.
 - Registro: data/research/2026-10-08-g0-serie-c-crosscheck.md.
 - Gate G0 segue pendente de revisão independente e checagem de identidade jurídica.
+
+## M1 — rótulos CBF complementares, 2026-10-08
+- Pesquisa adicional: 13 correspondências de rótulos esportivos (7 Série B, 6 Série C) registradas em data/research/2026-10-08-g0-aliases-bc-cbf.md, com fontes CBF e encaminhamento ao conferente.
+- Extração via trechos indexados de páginas dinâmicas CBF; reabertura integral indisponível na sessão. Evidência preliminar, sem homologação; identidade jurídica/SAF não inferida.
+- G0/G6 continuam PENDING. Nenhum fato histórico publicado.
