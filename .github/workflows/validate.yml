@@ -1,0 +1,21 @@
+name: Validar repositório
+on:
+  push:
+  pull_request:
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar artefatos mínimos
+        run: |
+          test -f README.md
+          test -f canonical/DATA_CONTRACTS.md
+          test -f db/001_schema.sql
+          test -f web/index.html
+          test -f web/app.js
+          test -f web/config.js
+          test -f agents/EXECUTION.md
+      - name: Impedir credenciais privadas em arquivos públicos
+        run: |
+          if grep -R -E 'service_role[[:space:]]*[:=][[:space:]]*["'\''\x60][A-Za-z0-9_-]{20}|sb_secret_[A-Za-z0-9_-]+' web/; then exit 1; fi
