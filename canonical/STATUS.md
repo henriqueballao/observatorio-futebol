@@ -10,11 +10,11 @@
 
 ## Pendências / gates
 - G0: homologar oficialmente o universo 2026.
-- GitHub Pages: confirmar ativação em Settings → Pages; publicação externa não verificada.
-- Supabase: conexão e projeto exclusivo pendentes. Não usar VINISWIM.
+- GitHub Pages: confirmar ativação em Settings → Pages; publicação externa não verificada. Em repositório privado depende de elegibilidade do plano.
+- Decisão D009: operar temporariamente com arquivos JSON versionados no GitHub; Supabase adiado por limite de projetos gratuitos. Não usar VINISWIM, Financeiro ou PCQO.
 - Banco: aplicar DDL por migração e validar RLS antes do primeiro dado.
 - Pesquisa histórica: nenhum resultado publicado/homologado.
 - Instalar fluxo de ingestão e provas independentes antes de publicar fatos.
 
 ## Próximo marco
-Configurar projeto Supabase exclusivo; aplicar migração, aprovar RLS, carregar somente clubes após G0, conectar web/config.js usando apenas chave publicável, testar hospedagem e domínio.
+Homologar G0; pesquisar e validar lotes; gerar web/facts.json apenas de registros verificados. Ativar hospedagem GitHub Pages se elegível, ou alternativa gratuita compatível com repositório privado. Supabase permanece previsto, não ativo.
