@@ -30,7 +30,12 @@ async function init(){
    facts=history; $('connection').textContent='Fonte: Supabase. Somente registros homologados são consultados.';
   } else {
    const r=await fetch('./clubs.json'); if(!r.ok)throw new Error('Catálogo local indisponível');
-   clubs=(await r.json()).map(c=>({...c,status:'Pendente'}));$('connection').textContent='Modo catálogo preliminar: configure o Supabase para ativar dados homologados.';
+   clubs=(await r.json()).map(c=>({...c,status:'Pendente'}));
+   const history=await fetch('./facts.json'); if(!history.ok)throw new Error('Base histórica indisponível');
+   const published=await history.json();
+   if(!Array.isArray(published)||published.some(x=>x.status!=='verified'||!x.source_id||!x.reviewer_id||!x.researcher_id||x.reviewer_id===x.researcher_id))throw new Error('Base de publicação reprovada');
+   facts=published;
+   $('connection').textContent='Fonte: arquivos versionados no GitHub. Apenas fatos conferidos são publicados.';
   }
   $('state').innerHTML+=[...new Set(clubs.map(c=>c.state))].sort().map(s=>'<option>'+safe(s)+'</option>').join('');
   for(const id of ['clubA','clubB'])$(id).innerHTML=clubs.map(c=>'<option value="'+safe(c.club_id)+'">'+safe(c.name)+'</option>').join('');
