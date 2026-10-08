@@ -1,10 +1,10 @@
 const $=x=>document.getElementById(x);
 let clubs=[],facts=[];
-const safe=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','"':'&#39;'}[c]));
+const safe=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const conf=window.OBS_CONFIG||{};
 async function getDb(table,query=''){
  const u=conf.supabaseUrl.replace(/\/$/,'')+'/rest/v1/'+table+'?'+query;
- const r=await fetch(u,{headers:{apikey:conf.supabasePublishableKey,Authorization:'Bearer '+conf.supabasePublishableKey}});
+ const r=await fetch(u,{headers:{apikey:conf.supabasePublishableKey,Accept:'application/json'}});
  if(!r.ok)throw new Error('Banco não disponível'); return r.json();
 }
 function draw(){
