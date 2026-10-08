@@ -1,0 +1,2 @@
+# G0: conferência de UFs
+Fonte: tabelas básicas CBF 2026, páginas 1, séries A/B/C. Os 60 registros de web/clubs.json têm UFs coincidentes com as tabelas oficiais. Aliases a revisar: Athletic/Athletic Club; São Bernardo FC/São Bernardo; Barra/Barra-SC; Ypiranga/Ypiranga-RS. Revisão independente ainda pendente. Pesquisa de 08/10/2026.
