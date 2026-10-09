@@ -35,3 +35,10 @@ Homologar G0; pesquisar e validar lotes; gerar web/facts.json apenas de registro
 - Pesquisa adicional: 13 correspondências de rótulos esportivos (7 Série B, 6 Série C) registradas em data/research/2026-10-08-g0-aliases-bc-cbf.md, com fontes CBF e encaminhamento ao conferente.
 - Extração via trechos indexados de páginas dinâmicas CBF; reabertura integral indisponível na sessão. Evidência preliminar, sem homologação; identidade jurídica/SAF não inferida.
 - G0/G6 continuam PENDING. Nenhum fato histórico publicado.
+
+## M1 — 2026-10-09: três REC 2026 e confronto de origens 2025
+- Branch de coleta: `research/g0-rec-serie-c-2026-10-09`. Transcrição dos REC oficiais A/B/C 2026 em `data/research/2026-10-09-g0-rec-cbf-60-denominacoes-origens.md`: 20 por série, 60 IDs distintos, sem divergência de UF/divisão entre os anexos de participantes e o catálogo preliminar. A transcrição não equivale a homologação.
+- Confronto complementar com fontes CBF 2025 em `data/research/2026-10-09-g0-origens-2025-confronto-cbf.md`: quatro acessos C 2025 → B 2026 (Ponte Preta, Londrina, Náutico, São Bernardo); quatro descensos A 2025 → B 2026 (Ceará, Fortaleza, Juventude, Sport).
+- Duas inconsistências dos REC permanecem registradas: Criciúma com origem A no REC B 2026 apesar de participação comprovada na B 2025; Guarani com UF SP na p.16 e SC na p.17 do REC C 2026. Não corrigir fonte original por inferência.
+- Existe parecer parcial A/C em `data/review/2026-10-09-g0-review-a-c.md`; exigir confirmação documental de revisor distinto antes de contar como G6. Conferência independente da B e auditoria do universo completo ainda pendentes.
+- **G0/G6: PENDING.** `web/clubs.json` permanece preliminar; `web/facts.json` vazio. M2–M6 sem importação de fatos homologados.
